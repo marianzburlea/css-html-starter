@@ -1,0 +1,39 @@
+{
+  "name": "css3-html5-starter",
+  "version": "1.0.0",
+  "description": "CSS3 and HTML5 starter",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp prod",
+    "serve": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianzburlea/css-html-starter"
+  },
+  "keywords": [
+    "css3 starter",
+    "html5 starter"
+  ],
+  "author": "Marian Zburlea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marianzburlea/css-html-starter/issues"
+  },
+  "homepage": "https://github.com/marianzburlea/css-html-starter#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-debug": "^2.1.2",
+    "gulp-filter": "^3.0.1",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-inject": "^4.0.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rev": "^7.0.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "sassdoc": "^2.1.18"
+  }
+}
